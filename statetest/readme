@@ -1,0 +1,12 @@
+The following code represents stateful transformation in spark(java).
+The state diagram is explained below:-
+1. Four states have been used in the example.
+2. State "first" is the starting state.
+3. State "fourth" is the final state.
+4. Rules for inputs:-
+4.1. 'a':- state_measure = state_measure + input_measure
+4.2. 'b':- state_measure = state_measure - input_measure
+4.3. 'c':- state_measure = state_measure
+5. Only the keys reaching the final state are shown in the output.
+6. The code can be also used for batch queries.
+7. To run the code use :- spark-submit --jars required_jars mainjarfilename
