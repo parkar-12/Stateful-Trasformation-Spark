@@ -84,12 +84,12 @@ public  class state {
                                 measure = measure + temp_measure;
                             }
                             else if(name.equals("third") && alpha.equals("b")){
-                                System.out.println("Enter 8");
+                                // System.out.println("Enter 8");
                                 name = "third";
                                 measure = measure - temp_measure;
                             }
                             else if(name.equals("third") && alpha.equals("c")){
-                                System.out.println("Enter 9");
+                                // System.out.println("Enter 9");
                                 name = "fourth";
                             }
                             else if(name.equals("fourth")){
